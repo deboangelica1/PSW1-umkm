@@ -1,0 +1,113 @@
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.menu a {
+  margin-left: 20px;
+  color: #333;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  color: #a35f2f;
+}
+
+/* HERO */
+.hero {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  line-height: 1.2;
+}
+
+.hero-text span {
+  color: #b8784e;
+}
+
+.hero-text p {
+  margin-top: 12px;
+  max-width: 350px;
+  font-size: 15px;
+}
+
+.btn-primary {
+  margin-top: 20px;
+  padding: 12px 24px;
+  background: #b8784e;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.hero-img img {
+  width: 420px;
+  border-radius: 10px;
+}
+
+/* MENU SECTION */
+.menu-section {
+  margin-top: 60px;
+}
+
+.menu-section h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.menu-grid {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  width: 32%;
+  text-align: center;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.card h3 {
+  margin-top: 10px;
+}
+
+.card p {
+  color: #777;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+/* FOOTER */
+.footer {
+  margin-top: 50px;
+  padding: 20px 0;
+  text-align: center;
+  color: #555;
+}

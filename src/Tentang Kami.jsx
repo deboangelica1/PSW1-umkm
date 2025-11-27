@@ -3,7 +3,7 @@ import React from "react";
 const TentangKami = () => {
   return (
     <div style={styles.container}>
-      <h1 style={styles.header}>Tentang Kami</h1>
+      <h1 style={styles.header}>Tentang Kami test</h1>
 
       <p style={styles.text}>
         Selamat datang di <strong>Cafe Kami</strong>!  
